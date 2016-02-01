@@ -11,6 +11,7 @@
 #include "srtp.h"
 
 #include <pcap.h>
+#define PCAP_NETMASK_UNKNOWN    0xffffffff
 
 static const char b64chars[] = 
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
